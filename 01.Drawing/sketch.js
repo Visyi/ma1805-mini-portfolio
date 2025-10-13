@@ -5,11 +5,13 @@ function setup() {
 
 function draw() { 
   background(255);
+  
   //Phone Body
   fill(20);
   rect(300, 200, 600, 500, 15, 15, 15 , 15); //Phone Body 
   fill(66, 150, 199);
   rect( 325, 240, 550, 430, 10, 10, 10, 10); //Phone Screen
+
   //Main Body of Camera
     fill(128);
     stroke(64);
