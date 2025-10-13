@@ -1,10 +1,16 @@
 function setup() {
   createCanvas(1200, 600);
 }
-
+  //Veiled Technocratic Supremacy
 
 function draw() { 
   background(255);
+  //Phone Body
+  fill(20);
+  rect(300, 200, 600, 500, 15, 15, 15 , 15); //Phone Body 
+  fill(66, 150, 199);
+  rect( 325, 240, 550, 430, 10, 10, 10, 10); //Phone Screen
+  //Main Body of Camera
     fill(128);
     stroke(64);
     strokeWeight(4);
@@ -15,6 +21,8 @@ function draw() {
   stroke(40);
   strokeWeight(3);
   rect(570, 250, 60, 85, 0, 0, 20, 20); //Camera Pocket
+
+  //Details
   fill(128);
   stroke(20);
   strokeWeight(2);
@@ -22,9 +30,7 @@ function draw() {
     fill(0);
   circle(600, 310, 25); //Surveillance Camera Lens
   fill(255);
-  circle(500, 265, 15); //Light Reflection
-
-  //Hunting Eyes
+  circle(500, 265, 10); //Light Reflection
 fill(0);
 circle(600, 310, 10); //outer lense
   fill(255,0,0);
