@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1200, 600);
+  createCanvas(1100, 800);
 }
   //Veiled Technocratic Supremacy
 
@@ -8,9 +8,9 @@ function draw() {
   
   //Phone Body
   fill(20);
-  rect(300, 200, 600, 500, 15, 15, 15 , 15); //Phone Body 
+  rect(300, 200, 600, 1500, 15, 15, 15 , 15); //Phone Body 
   fill(66, 150, 199);
-  rect( 325, 240, 550, 430, 10, 10, 10, 10); //Phone Screen
+  rect( 325, 240, 550, 730, 10, 10, 10, 10); //Phone Screen
 
   //Main Body of Camera
     fill(128);

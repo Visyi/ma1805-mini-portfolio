@@ -1,4 +1,4 @@
-                                  *Veiled Technocratic Supremacy*
+                                                         *Veiled Technocratic Supremacy*
 
 Veiled Technocratic Supremacy is an attempt to visualise the control and surveillance powers organisations, governments, and the wealthy all have at their disposal. The past few years, I have personally started to realise the depth and severity of how all of our actions are almost all tracked and traceable by organisations/companies , from data stored from social media companies to what we purchased at Tesco on a random Saturday morning. 
 
