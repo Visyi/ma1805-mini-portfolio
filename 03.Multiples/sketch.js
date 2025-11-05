@@ -69,7 +69,7 @@ this.rain = function() {
 function Stream () {
   this.matrixsymbols = []
   this.totalmatrixsymbols = round(random(15,40));// Number of Binary Digits 
-  this.speed = random(1, 7); // Speed of vertical stream
+  this.speed = random(0.5, 5); // Speed of vertical stream
 
   this.generatematrix = function(x, y) {
     for (var i =0; i <= this.totalmatrixsymbols; i++) {
