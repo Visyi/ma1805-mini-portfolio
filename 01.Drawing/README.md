@@ -4,3 +4,4 @@ Veiled Technocratic Supremacy is an attempt to visualise the control and surveil
 
 Subsequently, there is the insight to how our data is economically weaponised by data storage companies in which are bought, sold, and traded at constant bidding wars. Beyond that, our devices we trust and use on a daily basis, either it be for social media or work purposes, kept in our physical vicinities of where we sleep, are also veiled tracking tags. If an organisation or anyone up the almost-dystopian and enigmatic hierarchy wants to find you, they can and will.
 
+Overall, the coding wasn't the hardest part but more of the positioning of the shapes and what shapes to use, it was a trial and error task.

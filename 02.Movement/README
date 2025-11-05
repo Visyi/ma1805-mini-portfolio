@@ -1,0 +1,12 @@
+                                       Silent Hill, The "Leave Ending"
+
+With direct inspiration from the Notion Movement example, I added a little touch of a personal influence from my gaming perspective. 
+Silent Hill is an emotional rollercoaster, and this scene connected with me. I attempted to visualize the converstaion James and Mary
+had. 
+
+One of the harder parts of this line of code was attempting to play the audio on start up but will only work the first few times on start up.
+Adding a new font was the funnest part. The hardest part would be selecting the last phrase in the array and display it red, just by adding 
+another if/else statement did the trick. 
+
+If the audio does not play initially locally, a better listening experience would be to match the audio to the start of the window opening,
+                                    https://www.youtube.com/watch?v=td3P1-cfZ4E

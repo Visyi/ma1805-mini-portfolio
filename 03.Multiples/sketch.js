@@ -3,7 +3,7 @@
 // Inspired by "Matrix Rain in p5.js" tutorial by The Coding Train
 
 // Creating Global Variables
-var matrixsymbolSize = 17; //Global Text SIze
+var matrixsymbolSize = 17; //Global Text Size
 var streams = []; // Global Variable for Streams
 
 function setup() {
@@ -22,15 +22,15 @@ function setup() {
 
 // Rendering Digits
 function draw() {
-  background(0,300);
+  background(0,300); // Sets alpha
 
   fill(255,255,255); // White font
   streams.forEach (function(stream) { // Goes through Streams array and draws it on screen
     stream.render();
     });
 
-// Creating the eye and the iris without interfering with other lines of code and objects  
-push();
+// Creating the eye and the iris
+push(); // push and pop allows to create shapes without interfering with other lines of code
   ellipseMode(CENTER);
   noFill();
   stroke(0, 0, 0, 170);
@@ -74,13 +74,13 @@ function Stream () {
   this.generatematrix = function(x, y) {
     for (var i =0; i <= this.totalmatrixsymbols; i++) {
       matrix = new MatrixBinary(x, y, this.speed);
-      matrix.setToRandomMatrixBinary();
+      matrix.setToRandomMatrixBinary(); // Creates Matrix code as each stream with their own properties
       this.matrixsymbols.push(matrix);
-      y -= matrixsymbolSize
+      y -= matrixsymbolSize //Staggers digits within a stream over one another to ensure no overlays
     }
       this.render = function () {
         this.matrixsymbols.forEach(function(matrix) {
-          text(matrix.value, matrix.x, matrix.y);
+          text(matrix.value, matrix.x, matrix.y); // renders
             matrix.rain();
             matrix.setToRandomMatrixBinary();
 
