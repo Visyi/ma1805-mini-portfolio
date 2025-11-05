@@ -1,7 +1,7 @@
 # ma1805-mini-portfolio
 Portfolio assessment
 
-https://visyi.github.ioma1805-mini-portfolio/
+https://visyi.github.io/ma1805-mini-portfolio
 
 [01.Drawing](01.Drawing/index.html)
 
